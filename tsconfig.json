@@ -13,6 +13,8 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "target": "esnext",
+    "outDir": "./dist",
+    
     
     // For nodejs:
     // "lib": ["esnext"],
