@@ -19,7 +19,9 @@ router.post("/login", async (req, res) => {
       user: authData.record,
     });
 
-  } catch (error) {
+  } catch (error: any) {
+
+    console.log(error);
 
     res.status(400).json({
       success: false,
